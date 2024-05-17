@@ -1,0 +1,463 @@
+@import url(https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+/* BACKGROUND */
+* {
+    font-family:"JetBrains Mono", monospace;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/css/img/noise.png);
+    background-color: #0e130f;
+}
+
+/* FONTS */
+h1, h2, b {
+    font-family: "Druk Wide Bold";
+    color: #DADADA;
+}
+
+h1 {
+    font-size: 114px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 28.50px;
+    word-wrap: break-word
+}
+
+h2 {
+    font-size: 66px;
+    font-weight: 700;
+    letter-spacing: 9.90px;
+    word-wrap: break-word
+}
+
+h3{
+    color: #fff;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.projects p{
+    color: #bbbbbb;
+}
+
+.btn p{
+    color: #fff;
+}
+
+.bio {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3.84px;
+    word-wrap: break-word
+}
+/* NAVBAR */
+.logo {
+    position:absolute;
+    top: 41px;
+    right: 1488px;
+    left: 132px;
+    bottom: 4184px;
+    width: 108px;
+    height: 149px;
+}
+
+.navbar {
+    position: absolute;
+    background-color: #344c36;
+    width: 692px;
+    height: 73px;
+    top: 69px;
+    left: 1000px;
+    right: 117px;
+    border-radius: 14px;
+}
+
+.navbar-items {
+    position: absolute;
+    left: 932px;
+    top: 69px;
+    line-height: 73px;
+    margin: 0;
+}
+
+.navbar-items li {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+    margin-left: 105px;
+}
+
+.navbar-items a {
+    text-decoration-color: #4B8850;
+}
+
+.navbar-items a:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+   text-decoration-color: #344C36;
+}
+
+/* MAIN TEXT */
+.main-text {
+    cursor:auto;
+}
+
+b {
+    display: block;
+    position:absolute;
+    width: 1495px;
+    height: 162px;
+    top: 426px;
+    left: 200px;
+    font-size: 114px;
+    line-height: 149px;
+    letter-spacing: 25px;
+    color: #dadada;
+}
+
+.name {
+    width: 284px;
+    height: 25px;
+    font-size: 20px;
+    margin-left: 195px;
+    margin-top: 401px;
+    margin-right: 1324px;
+    letter-spacing: 6.5px;
+}
+
+.work {
+    width: 767px;
+    height: 31px;
+    font-size: 20px;
+    letter-spacing: 6.5px;
+    margin-top: 160px;
+    margin-left: 995px;
+}
+
+/* PROJECTS */
+.projects h2{
+    margin-top: 510px;
+    margin-left: 100px;
+}
+
+.projects h3, p {
+    margin-right: 30px;
+    margin-left: 570px;
+}
+
+.js-consultoria {
+    width: 1264px;
+    height: 570px;
+    margin-left: 232px;
+    border: 100px;
+    border-color: #4b8850;
+    border-radius: 14px;
+    background-color: #344c36;
+}
+
+.js-consultoria h3{
+    position: absolute;
+}
+
+.project-image {
+    position: absolute;
+}
+
+.web {
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.role {
+    position: absolute;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.description {
+    margin-top: 250px;
+    margin-right: 400px;
+    position: absolute;
+}
+
+.live-demo {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 415px;
+}
+
+.live-demo p {
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+}
+
+.live-demo p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+   text-decoration-color: #344C36;
+}
+
+.git-repo {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 135px;
+}
+
+.git-repo p {
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+}
+
+.git-repo p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+   text-decoration-color: #344C36;
+}
+
+.form-carseller {
+    width: 1264px;
+    height: 570px;
+    margin-top: 29px;
+    margin-left: 232px;
+    border: 100px;
+    border-color: #4b8850;
+    border-radius: 14px;
+    background-color: #344c36;
+}
+
+.form-carseller h3{
+    position: absolute;
+}
+
+.project-image-2 {
+    position: absolute;
+}
+
+.web-2 {
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.role-2 {
+    position: absolute;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.description-2 {
+    margin-top: 250px;
+    margin-right: 400px;
+    position: absolute;
+}
+
+.live-demo-2 {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 415px;
+}
+
+.live-demo-2 p {
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+}
+
+.live-demo-2 p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+   text-decoration-color: #344C36;
+}
+
+.git-repo-2 {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 135px;
+}
+
+.git-repo-2 p {
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+}
+
+.git-repo-2 p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+   text-decoration-color: #344C36;
+}
+
+/* ABOUT ME */
+.about-me h2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.about {
+    background-color: #344C36;
+    width: 1264px;
+    height: 456px;
+    border-radius: 14px;
+    margin-left: 232px;
+}
+
+.bio {
+    position:absolute;
+    margin-top: 29px;
+    margin-left: 29px;
+    margin-right: 410px;
+}
+
+.bio-2 {
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 29px;
+    margin-right: 410px
+}
+
+.bio-3 {
+    position:absolute;
+    margin-top: 250px;
+    margin-left: 29px;
+    margin-right: 410px
+}
+
+.stack{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 29px;
+}
+
+.dev-stack {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 260px;
+}
+
+.dev-stack img{
+    margin-right: 20px;
+    width: 68px;
+    height: auto;
+}
+
+/* CONTACT */
+.contact h2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.socials {
+    width: 1264px;
+    height: 228px;
+    background: #344C36;
+    margin-left: 235px;
+    margin-right: 229px;
+    border-radius: 14px;
+}
+
+.github {
+    width: 48px;
+    height: 48px;
+    margin-top: 42px;
+    margin-left: 77px;
+    margin-right: 1139px;
+}
+
+.git p{
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 142px;
+    margin-bottom: 144px;
+}
+
+.git p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+    text-decoration-color: #344C36;
+}
+
+.linkedin {
+    width: 48px;
+    height: 48px;
+    margin-top: 48px;
+    margin-left: 77px;
+}
+
+.link p{
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+    position: absolute;
+    margin-left: 142px;
+    margin-top: -36px;
+}
+
+.link p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+    text-decoration-color: #344C36;
+}
+
+.email {
+    margin-top: 22px;
+    margin-left: 705px;
+    margin-top: -155px;
+    margin-bottom: 70px;
+}
+
+.e-mail p{
+    text-decoration: underline;
+    text-decoration-color: #4B8850;
+    margin-top: -110px;
+    margin-left: 895px;
+}
+
+.e-mail p:hover{
+    color: #bbbbbb;
+    font-size: 27px;
+    text-decoration-color: #344C36;
+}
+
+/* CALL TO ACTION */
+.cta-btn {
+    background: #4B8850;
+    width: 576px;
+    height: 73px;
+    border-radius: 14px;
+    margin-left: 575px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.call-to-action p{
+    position: absolute;
+    background-color: #4B8850;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 120px;
+}
+
+/* FOOTER */
+.footer-logo {
+    margin-top: 100px;
+    margin-left: 810px;
+}
+
+#copyright {
+    font-size: 20px;
+    color: #656262;
+    background-color: transparent;
+    margin-left: 720px;
+    letter-spacing: 6.5px;
+}
