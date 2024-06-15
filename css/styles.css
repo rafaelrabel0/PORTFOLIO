@@ -1,5 +1,17 @@
 @import url(https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
-/* BACKGROUND */
+
+@font-face {
+    font-family: 'Druk Wide Bold';
+    src: url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot'); /* IE9 Compat Modes */
+    src: url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff') format('woff'), /* Pretty Modern Browsers */
+         url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#DrukWideBold') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     font-family:"JetBrains Mono", monospace;
     color: #fff;
@@ -11,33 +23,24 @@ body {
     background-color: #0e130f;
 }
 
-/* FONTS */
-h1, h2, b {
-    font-family: "Druk Wide Bold";
+h2, b {
+    font-family: "Druk Wide Bold", sans-serif;
     color: #DADADA;
-}
-
-h1 {
-    font-size: 114px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 28.50px;
-    word-wrap: break-word
 }
 
 h2 {
     font-size: 66px;
     font-weight: 700;
     letter-spacing: 9.90px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
-h3{
+h3 {
     color: #fff;
     font-size: 39px;
     font-weight: 600;
     line-height: 40px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 p {
@@ -45,11 +48,11 @@ p {
     font-weight: 400;
 }
 
-.projects p{
+.projects p {
     color: #bbbbbb;
 }
 
-.btn p{
+.btn p {
     color: #fff;
 }
 
@@ -58,11 +61,12 @@ p {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 3.84px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
+
 /* NAVBAR */
 .logo {
-    position:absolute;
+    position: absolute;
     top: 41px;
     right: 1488px;
     left: 132px;
@@ -78,7 +82,6 @@ p {
     height: 73px;
     top: 69px;
     left: 1000px;
-    right: 117px;
     border-radius: 14px;
 }
 
@@ -96,39 +99,33 @@ p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
     margin-left: 105px;
+    transition: 300ms;
 }
 
 .navbar-items a {
     text-decoration-color: #4B8850;
+    transition: 300ms;
 }
 
-.navbar-items a:hover{
+.navbar-items a:hover {
     color: #bbbbbb;
     font-size: 27px;
-   text-decoration-color: #344C36;
+    text-decoration-color: #344C36;
 }
 
 /* MAIN TEXT */
-.main-text {
-    cursor:auto;
-}
-
 b {
     display: block;
-    position:absolute;
-    width: 1495px;
-    height: 162px;
+    position: absolute;
     top: 426px;
     left: 200px;
     font-size: 114px;
-    line-height: 149px;
     letter-spacing: 25px;
     color: #dadada;
 }
 
 .name {
     width: 284px;
-    height: 25px;
     font-size: 20px;
     margin-left: 195px;
     margin-top: 401px;
@@ -138,7 +135,6 @@ b {
 
 .work {
     width: 767px;
-    height: 31px;
     font-size: 20px;
     letter-spacing: 6.5px;
     margin-top: 160px;
@@ -146,7 +142,7 @@ b {
 }
 
 /* PROJECTS */
-.projects h2{
+.projects h2 {
     margin-top: 510px;
     margin-left: 100px;
 }
@@ -161,12 +157,11 @@ b {
     height: 570px;
     margin-left: 232px;
     border: 100px;
-    border-color: #4b8850;
     border-radius: 14px;
     background-color: #344c36;
 }
 
-.js-consultoria h3{
+.js-consultoria h3 {
     position: absolute;
 }
 
@@ -196,34 +191,38 @@ b {
     position: absolute;
     margin-top: 470px;
     margin-left: 415px;
+    transition: 700ms;
 }
 
 .live-demo p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
+    transition: 300ms;
 }
 
-.live-demo p:hover{
+.live-demo p:hover {
     color: #bbbbbb;
     font-size: 27px;
-   text-decoration-color: #344C36;
+    text-decoration-color: #344C36;
 }
 
 .git-repo {
     position: absolute;
     margin-top: 470px;
     margin-left: 135px;
+    transition: 700ms;
 }
 
 .git-repo p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
+    transition: 300ms;
 }
 
-.git-repo p:hover{
+.git-repo p:hover {
     color: #bbbbbb;
     font-size: 27px;
-   text-decoration-color: #344C36;
+    text-decoration-color: #344C36;
 }
 
 .form-carseller {
@@ -237,68 +236,78 @@ b {
     background-color: #344c36;
 }
 
-.form-carseller h3{
+.form-carseller h3 {
     position: absolute;
+    margin-left: 20px;
 }
 
 .project-image-2 {
     position: absolute;
+    margin-left: 728px;
 }
 
 .web-2 {
     display: flex;
     position: absolute;
     margin-top: 80px;
+    margin-left: 20px;
 }
 
 .role-2 {
     position: absolute;
     margin-top: 160px;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .description-2 {
     margin-top: 250px;
-    margin-right: 400px;
+    margin-right: 900px;
     position: absolute;
+    margin-left: 20px;
 }
 
 .live-demo-2 {
     position: absolute;
     margin-top: 470px;
-    margin-left: 415px;
+    transition: 700ms;
 }
 
 .live-demo-2 p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
+    margin-left: 450px;
+    transition: 300ms;
 }
 
-.live-demo-2 p:hover{
+.live-demo-2 p:hover {
     color: #bbbbbb;
     font-size: 27px;
-   text-decoration-color: #344C36;
+    text-decoration-color: #344C36;
 }
 
 .git-repo-2 {
     position: absolute;
     margin-top: 470px;
-    margin-left: 135px;
+    transition: 700ms;
+    margin-left: 10px;
 }
 
 .git-repo-2 p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
+    transition: 300ms;
+    margin-left: 150px;
 }
 
-.git-repo-2 p:hover{
+.git-repo-2 p:hover {
     color: #bbbbbb;
     font-size: 27px;
-   text-decoration-color: #344C36;
+    text-decoration-color: #344C36;
 }
 
 /* ABOUT ME */
-.about-me h2{
+.about-me h2 {
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -312,30 +321,34 @@ b {
 }
 
 .bio {
-    position:absolute;
+    position: absolute;
     margin-top: 29px;
     margin-left: 29px;
     margin-right: 410px;
+    letter-spacing: 0.5px;
 }
 
 .bio-2 {
-    position:absolute;
+    position: absolute;
     margin-top: 100px;
     margin-left: 29px;
-    margin-right: 410px
+    margin-right: 410px;
+    letter-spacing: 0.5px;
 }
 
 .bio-3 {
-    position:absolute;
+    position: absolute;
     margin-top: 250px;
     margin-left: 29px;
-    margin-right: 410px
+    margin-right: 410px;
+    letter-spacing: 0.5px;
 }
 
-.stack{
+.stack {
     position: absolute;
     margin-top: 360px;
     margin-left: 29px;
+    letter-spacing: 0.5px;
 }
 
 .dev-stack {
@@ -344,14 +357,14 @@ b {
     margin-left: 260px;
 }
 
-.dev-stack img{
+.dev-stack img {
     margin-right: 20px;
     width: 68px;
     height: auto;
 }
 
 /* CONTACT */
-.contact h2{
+.contact h2 {
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -373,16 +386,17 @@ b {
     margin-right: 1139px;
 }
 
-.git p{
+.git p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
     position: absolute;
     margin-top: -40px;
     margin-left: 142px;
     margin-bottom: 144px;
+    transition: 300ms;
 }
 
-.git p:hover{
+.git p:hover {
     color: #bbbbbb;
     font-size: 27px;
     text-decoration-color: #344C36;
@@ -395,35 +409,37 @@ b {
     margin-left: 77px;
 }
 
-.link p{
+.link p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
     position: absolute;
     margin-left: 142px;
     margin-top: -36px;
+    transition: 300ms;
 }
 
-.link p:hover{
+.link p:hover {
     color: #bbbbbb;
     font-size: 27px;
     text-decoration-color: #344C36;
 }
 
 .email {
-    margin-top: 22px;
-    margin-left: 705px;
+    position: relative;
+    margin-left: 835px;
     margin-top: -155px;
     margin-bottom: 70px;
 }
 
-.e-mail p{
+.e-mail p {
     text-decoration: underline;
     text-decoration-color: #4B8850;
     margin-top: -110px;
     margin-left: 895px;
+    transition: 300ms;
 }
 
-.e-mail p:hover{
+.e-mail p:hover {
     color: #bbbbbb;
     font-size: 27px;
     text-decoration-color: #344C36;
@@ -438,14 +454,25 @@ b {
     margin-left: 575px;
     margin-top: 130px;
     cursor: pointer;
+    transition: 900ms;
 }
 
-.call-to-action p{
+.cta-btn:hover {
+    background-color: #344c36;
+    width: 400px;
+    margin-left: 660px;
+}
+
+.call-to-action p {
     position: absolute;
-    background-color: #4B8850;
     margin-top: 20px;
     margin-right: 0;
     margin-left: 120px;
+    transition: 900ms;
+}
+
+.call-to-action p:hover {
+    margin-left: 30px;
 }
 
 /* FOOTER */

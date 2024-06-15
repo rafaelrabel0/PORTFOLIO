@@ -1,0 +1,951 @@
+@media (max-width: 1440px) {
+    /* NAVBAR */
+    .logo {
+        height: auto;
+        width: 120px;
+        left: 60px;
+    }
+
+    .navbar {
+        height: 63px;
+        width: 672px;
+        top: 75px;
+        left: 708px;
+    }
+
+    .navbar-items{
+        left: 655px;
+    }
+
+    .navbar-items li{
+        font-size: 24px;
+        margin-left: 95px;
+    }
+
+    /* MAINTEXT */
+    b {
+        font-size: 100px;
+        left: 70px;
+    }
+
+    .name {
+        font-size: 16px;
+        margin-left: 62px;
+    }
+    
+    .work {
+        font-size: 16px;
+        margin-top: 150px;
+        margin-left: 805px;
+    }
+
+    /* PROJECTS */
+    .projects h2{
+        font-size: 70px;
+        margin-top: 410px;
+        margin-left: 60px;
+    }
+
+    .js-consultoria {
+        width: 1100px;
+        height: 550px;
+        margin-left: 125px;
+    }
+
+    .js-consultoria h3{
+        font-size: 34px;
+        margin-left: 540px;
+    }
+
+    .js-consultoria p{
+        font-size: 23px;
+        margin-left: 540px;
+    }
+
+    .project-image {
+        height: auto;
+        width: 518px;
+    }
+
+    .web {
+        margin-top: 80px;
+    }
+
+    .role {
+        margin-top: 170px;
+    }
+
+    .description {
+        margin-top: 220px;
+        margin-right: 250px;
+    }
+
+    .live-demo {
+        margin-top: 460px;
+        margin-left: 330px;
+    }
+
+    .git-repo {
+        margin-top: 460px;
+        margin-left: 90px;
+    }
+
+    .form-carseller {
+        width: 1100px;
+        height: 550px;
+        margin-left: 125px;
+    }
+
+    .form-carseller h3{
+        font-size: 34px;
+        margin-left: 20px;
+    }
+
+    .form-carseller p{
+        font-size: 23px;
+        margin-left: 20px;
+    }
+
+    .project-image-2 {
+        height: auto;
+        width: 516px;
+        margin-left: 585px;
+    }
+
+    .web-2 {
+        margin-top: 80px;
+    }
+
+    .role-2 {
+        margin-top: 170px;
+    }
+
+    .description-2 {
+        margin-top: 220px;
+        margin-right: 750px;
+    }
+
+    .live-demo-2 {
+        margin-top: 460px;
+        margin-left: 330px;
+    }
+
+    .git-repo-2 {
+        margin-top: 460px;
+        margin-left: 90px;
+    }
+
+    /* ABOUT ME */
+    .about-me h2 {
+        font-size: 70px;
+        margin-left: 60px;
+    }
+
+    .about-me p{
+        font-size: 23px;
+        margin-right: 220px;
+    }
+
+    .about {
+        width: 1100px;
+        height: 530px;
+        margin-left: 125px;
+    }
+
+    .bio-2 {
+        margin-top: 120px;
+    }
+
+    .bio-3 {
+        margin-top: 310px;
+    }
+
+    .stack {
+        margin-top: 450px;
+    }
+
+    .dev-stack {
+        margin-left: 230px;
+    }
+
+    .dev-stack img{
+        margin-left: 15px;
+        margin-top: 90px;
+        width: 50px;
+        height: auto;
+    }
+    /* CONTACT */
+    .socials {
+        height: 180px;
+        width: 1100px;
+        margin-left: 120px;
+    }
+
+    .contact h2 {
+        font-size: 70px;
+        margin-left: 60px;
+    }
+
+    .github {
+        width: 38px;
+        height: auto;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+
+    .git p{
+        margin-top: -38px;
+        margin-left: 90px;
+    }
+
+    .linkedin {
+        width: 38px;
+        height: auto;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+
+    .link p{
+        margin-top: -38px;
+        margin-left: 90px;
+    }
+
+    .email {
+        width: 38px;
+        height: auto;
+        margin-top: -75px;
+        margin-left: 670px;
+    }
+
+    .e-mail p{
+        margin-top: -108px;
+        margin-left: 720px;
+    }
+
+    /* CALL TO ACTION */
+    .cta-btn {
+        width: 500px;
+        margin-left: 500px;
+    }
+
+    .call-to-action p{
+        margin-left: 80px;
+    }
+
+    /* FOOTER */
+    .footer-logo{
+        height: auto;
+        width: 120px;
+        margin-left: 690px;
+    }
+
+    #copyright {
+        margin-left: 595px;
+    }
+}
+/* LAPTOP */
+@media (max-width: 1024px) {
+    .logo {
+        width: 100px;
+    }
+
+    .navbar {
+        height: 60px;
+        top: 75px;
+        left: 300px;
+    }
+
+    .navbar-items {
+        margin-left: -415px;
+    }
+
+    .navbar-items li{
+        font-size: 26px;
+    }
+
+    b{
+        font-size: 70px;
+        left: 15px;
+    }
+
+    .name {
+        margin-left: 8px;
+    }
+
+    .work {
+        margin-top: 110px;
+        margin-left: 440px;
+    }
+
+    /* PROJECTS */
+    .projects h2{
+        font-size: 60px;
+    }
+
+    .js-consultoria{
+        width: 900px;
+        height: 450px;
+        margin-left: 70px;
+    }
+
+    .js-consultoria h3{
+        font-size: 26px;
+        margin-top: 20px;
+        margin-left: 450px;
+    }
+
+    .js-consultoria p{
+        font-size: 19px;
+        margin-left: 450px;
+    }
+
+    .project-image {
+        width: 425px;
+        height: auto;
+    }
+
+    .web {
+        margin-top: 60px;
+    }
+
+    .role {
+        margin-top: 110px;
+    }
+
+    .description {
+        margin-top: 170px;
+        margin-right: 70px;
+    }
+
+    .live-demo {
+        margin-top: 370px;
+        margin-left: 250px;
+    }
+
+    .git-repo {
+        margin-top: 370px;
+    }
+
+    .form-carseller {
+        width: 900px;
+        height: 450px;
+        margin-left: 70px;
+    }
+
+    .form-carseller h3{
+        font-size: 26px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .form-carseller p{
+        font-size: 19px;
+    }
+
+    .project-image-2 {
+        width: 422px;
+        height: auto;
+        margin-left: 477px;
+    }
+
+    .web-2 {
+        margin-top: 60px;
+    }
+
+    .role-2 {
+        margin-top: 110px;
+    }
+
+    .description-2 {
+        margin-top: 170px;
+        margin-right: 500px;
+    }
+
+    .live-demo-2 {
+        margin-top: 370px;
+        margin-left: 250px;
+    }
+
+    .git-repo-2 {
+        margin-top: 370px;
+    }
+
+    /* ABOUT */
+    .about {
+        width: 900px;
+        height: 450px;
+        margin-left: 70px;
+    }
+
+    .about-me h2{
+        font-size: 60px;
+    }
+
+    .about-me p{
+        font-size: 21px;
+        margin-right: 80px;
+    }
+
+    .bio-2 {
+        margin-top: 100px;
+    }
+
+    .bio-3 {
+        margin-top: 250px;
+    }
+
+    .stack {
+        margin-top: 380px;
+    }
+
+    .dev-stack img{
+        margin-top: 1cap;
+    }
+
+    /* CONTACT */
+    .socials {
+        width: 900px;
+        margin-left: 70px;
+    }
+
+    .contact h2{
+        font-size: 60px;
+    }
+
+    .email {
+        margin-left: 480px;
+    }
+
+    .e-mail p{
+        margin-left: 530px;
+    }
+
+    /* CALL TO ACTION */
+    .cta-btn {
+        width: 400px;
+        margin-left: 330px;
+    }
+
+    .call-to-action p{
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    /* FOOTER */
+    .footer-logo {
+        width: 100px;
+        margin-left: 490px;
+    }
+
+    #copyright {
+        margin-left: 400px;
+    }
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+    /* NAVBAR */
+    .logo {
+        width: 100px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+
+    .navbar {
+        width: 500px;
+        height: 80px;
+        margin-left: -100px;
+    }
+
+    .navbar-items {
+        margin-top: 8px;
+        margin-left: -490px;
+    }
+
+    .navbar-items li{
+        margin-left: 45px;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .navbar-items a{
+        text-decoration: none;
+    }
+
+    /* MAIN TEXT */
+    b.portfolio {
+        display: block;
+        font-size: 110px;
+        word-break: break-word; 
+        line-height: 100px;
+        width: 100%;
+    }
+    
+    .name {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-top: 390px;
+    }
+
+    .work {
+        display: block;
+        font-size: 22px;
+        word-break: break-word;
+        white-space: normal;
+        width: 70%;
+        margin-top: 230px;
+        margin-left: 210px;
+    }
+
+    /* PROJECTS */
+    .projects h2{
+        margin-top: 350px;
+        margin-left: 140px;
+    }
+
+    .projects h3{
+        margin-top: 520px;
+        margin-left: 15px;
+    }
+
+    .js-consultoria {
+        width: 500px;
+        height: 900px;
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+
+    .js-consultoria p{
+        margin-left: 15px;
+    }
+
+    .project-image {
+        width: 470px;
+        height: auto;
+        margin: 15px;  
+    }
+
+    .web {
+        margin-top: 560px;
+    }
+
+    .role {
+        margin-top: 610px;
+    }
+
+    .description {
+        margin-top: 660px;
+        margin-right: 140px;
+    }
+
+    .live-demo{
+        margin-top: 820px;
+    }
+
+    .live-demo p{
+        font-size: 26px;
+    }
+
+    .git-repo{
+        margin-top: 820px;
+    }
+
+    .git-repo p{
+        font-size: 26px;
+    }
+    .form-carseller {
+        width: 500px;
+        height: 900px;
+        margin-top: 30px;
+        margin-left: 110px;
+    }
+
+    .form-carseller p{
+        margin-left: 15px;
+    }
+
+    .project-image-2 {
+        width: 470px;
+        height: auto;
+        margin: 15px;  
+    }
+
+    .web-2 {
+        margin-top: 560px;
+    }
+
+    .role-2 {
+        margin-top: 610px;
+    }
+
+    .description-2 {
+        margin-top: 660px;
+        margin-right: 140px;
+    }
+
+    .live-demo-2 {
+        margin-top: 820px;
+    }
+
+    .live-demo-2 p{
+        font-size: 26px;
+    }
+
+    .git-repo-2 {
+        margin-top: 820px;
+    }
+
+    .git-repo-2 p{
+        font-size: 26px;
+    }
+
+    /* ABOUT ME */
+    .about-me h2{
+        margin-top: 140px;
+        margin-left: 90px;
+    }
+
+    .about-me p{
+        margin-right: 140px;
+    }
+
+    .about {
+        width: 500px;
+        height: 700px;
+        margin-left: 110px;
+    }
+
+    .bio-2 {
+        margin-top: 150px;
+    }
+
+    .bio-3 {
+        margin-top: 410px;
+    }
+
+    .stack {
+        margin-top: 590px;
+    }
+
+    .dev-stack {
+        margin-top: 620px;
+        margin-left: 15px;
+    }
+
+    /* CONTACT */
+    .contact {
+        margin-top: 140px;
+        margin-left: 100px;
+    }
+
+    .socials {
+        width: 500px;
+        height: 280px;
+        margin-left: 10px;
+    }
+
+    .github {
+        margin-left: 130px;
+    }
+
+    .git p{
+        margin-left: 180px;
+    }
+
+    .linkedin {
+        margin-left: 130px;
+    }
+
+    .link p{
+        margin-left: 180px;
+    }
+
+    .email {
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .e-mail p{
+        margin-left: 110px;
+    }
+
+    /* CALL TO ACTION */
+    .cta-btn {
+        margin-left: 170px;
+    }
+
+    /* FOOTER */
+    .footer-logo {
+        margin-left: 330px;
+    }
+
+    #copyright {
+        margin-left: 240px;
+    }
+}
+/* PHONE */
+@media (max-width: 425px) {
+    /* NAVBAR */
+    .logo {
+        width: 0px;
+        margin-top: -30px;
+        margin-left: 130px;
+    }
+
+    .navbar {
+        width: 400px;
+        height: 80px;
+        margin-left: -288px;
+    }
+
+    .navbar-items {
+        margin-top: 10px;
+        margin-left: -690px;
+    }
+
+    .navbar-items li{
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .navbar-items a{
+        text-decoration: none;
+    }
+
+    /* MAIN TEXT */
+    b.portfolio {
+        font-size: 100px;
+        margin-top: -100px;
+        margin-right: 500px;
+        margin-left: 20px;
+    }
+    
+    .name {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-top: 290px;
+    }
+
+    .work {
+        display: block;
+        font-size: 22px;
+        word-break: break-word;
+        white-space: normal;
+        width: 100%;
+        margin-top: 430px;
+        margin-left: 30px;
+    }
+
+    /* PROJECTS */
+    .projects h2{
+        font-size: 46px;
+        margin-top: 200px;
+        margin-left: 30px;
+    }
+
+    .projects h3{
+        font-size: 23px;
+        margin-top: 420px;
+        margin-left: 15px;
+    }
+
+    .js-consultoria {
+        width: 400px;
+        height: 900px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .js-consultoria p{
+        margin-left: 15px;
+    }
+
+    .project-image {
+        width: 380px;
+        height: auto;
+        margin: 10px;  
+    }
+
+    .web {
+        margin-top: 460px;
+    }
+
+    .role {
+        margin-top: 510px;
+    }
+
+    .description {
+        margin-top: 560px;
+        margin-right: 40px;
+    }
+
+    .live-demo{
+        margin-top: 780px;
+        margin-left: 210px;
+    }
+
+    .live-demo p{
+        font-size: 26px;
+    }
+
+    .git-repo{
+        margin-top: 780px;
+        margin-left: 20px;
+    }
+
+    .git-repo p{
+        font-size: 26px;
+    }
+
+    .form-carseller {
+        width: 400px;
+        height: 900px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+    .form-carseller p{
+        margin-left: 15px;
+    }
+
+    .project-image-2 {
+        width: 380px;
+        height: auto;
+        margin: 10px;  
+    }
+
+    .web-2 {
+        margin-top: 460px;
+    }
+
+    .role-2 {
+        margin-top: 510px;
+    }
+
+    .description-2 {
+        margin-top: 560px;
+        margin-right: 40px;
+    }
+
+    .live-demo-2{
+        margin-top: 780px;
+        margin-left: 210px;
+    }
+
+    .live-demo-2 p{
+        font-size: 26px;
+    }
+
+    .git-repo-2{
+        margin-top: 780px;
+        margin-left: 20px;
+    }
+
+    .git-repo-2 p{
+        font-size: 26px;
+    }
+
+    /* ABOUT ME */
+    .about-me h2{
+        font-size: 38px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+
+    .about-me p{
+        margin-right: 40px;
+    }
+
+    .about {
+        width: 400px;
+        height: 860px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .bio-2 {
+        margin-top: 170px;
+    }
+
+    .bio-3 {
+        margin-top: 530px;
+    }
+
+    .stack {
+        margin-top: 750px;
+    }
+
+    .dev-stack {
+        margin-top: 780px;
+    }
+
+    .dev-stack img {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    /* CONTACT */
+    .contact h2 {
+        font-size: 54px;
+        margin-top: 200px;
+        margin-left: -80px;
+    }
+
+    .socials {
+        width: 400px;
+        height: 270px;
+        margin-top: 10px;
+        margin-left: -95px;
+    }
+
+    .github {
+        margin-left: 80px;
+    }
+
+    .git p{
+        margin-left: 130px;
+    }
+
+    .linkedin {
+        margin-left: 70px;
+    }
+
+    .link p{
+        margin-left: 120px;
+    }
+
+    .email {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .e-mail p{
+        margin-left: 50px;
+    }
+
+    /* CALL TO ACTION */
+    .cta-btn {
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 55px;
+    }
+
+    .cta-btn p {
+        font-size: 20px;
+        margin-top: 22px;
+        margin-left: 12px;
+    }
+
+    /* FOOTER */
+    .footer-logo {
+        margin-left: 160px;
+    }
+
+    #copyright {
+        margin-left: 70px;
+    }
+}
